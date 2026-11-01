@@ -1,0 +1,76 @@
+{
+ "stories": [
+  {
+   "name": "Greedy",
+   "repeated_trigrams": 0.46206896551724136,
+   "sample_overlap": null
+  },
+  {
+   "name": "Beam search (5)",
+   "repeated_trigrams": 0.6172413793103448,
+   "sample_overlap": null
+  },
+  {
+   "name": "Temperature 0.7",
+   "repeated_trigrams": 0.041379310344827586,
+   "sample_overlap": 0.14937392525912668
+  },
+  {
+   "name": "Temperature 1.0",
+   "repeated_trigrams": 0.0022988505747126484,
+   "sample_overlap": 0.08989845978917267
+  },
+  {
+   "name": "Temperature 1.5",
+   "repeated_trigrams": 0.0,
+   "sample_overlap": 0.011685453449657178
+  },
+  {
+   "name": "Top-k 50",
+   "repeated_trigrams": 0.016091954022988502,
+   "sample_overlap": 0.12124159277779588
+  },
+  {
+   "name": "Top-p 0.9",
+   "repeated_trigrams": 0.006896551724137937,
+   "sample_overlap": 0.12338336958095321
+  }
+ ],
+ "facts": [
+  {
+   "temperature": 0,
+   "accuracy": 0.45,
+   "n": 20
+  },
+  {
+   "temperature": 0.3,
+   "accuracy": 0.4375,
+   "n": 400
+  },
+  {
+   "temperature": 0.5,
+   "accuracy": 0.3875,
+   "n": 400
+  },
+  {
+   "temperature": 0.7,
+   "accuracy": 0.31,
+   "n": 400
+  },
+  {
+   "temperature": 1.0,
+   "accuracy": 0.215,
+   "n": 400
+  },
+  {
+   "temperature": 1.5,
+   "accuracy": 0.065,
+   "n": 400
+  },
+  {
+   "temperature": 2.0,
+   "accuracy": 0.0225,
+   "n": 400
+  }
+ ]
+}

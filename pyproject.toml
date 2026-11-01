@@ -1,0 +1,13 @@
+[project]
+name = "decoding-playground"
+version = "0.1.0"
+description = "Greedy, beam, temperature, top-k and top-p decoding written from scratch and run on GPT-2"
+requires-python = ">=3.12"
+dependencies = ["matplotlib>=3.10", "torch>=2.9", "transformers>=4.50"]
+
+[dependency-groups]
+dev = ["pytest>=8"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+pythonpath = ["."]
